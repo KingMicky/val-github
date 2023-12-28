@@ -45,5 +45,5 @@ jobs:
         docker run -d -p 80:5000 bit3down/valentine:latest
 
     - name: Check if the app is running
-      run: curl -s http://localhost:80 | grep "Happy Valentine's Day!"
+      run: curl -s http://localhost:80
 

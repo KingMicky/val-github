@@ -38,9 +38,3 @@ jobs:
 
     - name: Push Docker image
       run: docker push bit3down/valentine:latest
-
-    - name: Pull Docker image
-      run: |
-        docker pull bit3down/valentine:latest
-        docker run -d -p 80:8080 bit3down/valentine:latest
-

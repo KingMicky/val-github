@@ -17,4 +17,4 @@ jobs:
     - name: Delete old container
       run: sudo docker rm -f valentine || true
     - name: Run Docker container
-      run: sudo docker run -d --name valentine -p 8080:8080 bit3down/valentine:latest
+      run: sudo docker run -d --name valentine -p 80:8080 bit3down/valentine:latest

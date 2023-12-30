@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 RUN pip install flask
 
 # Make port 80 available to the world outside this container
-EXPOSE 8080
+EXPOSE 80
 
 # Define environment variable
 ENV NAME World

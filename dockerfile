@@ -9,7 +9,7 @@ COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --upgrade pip
-RUN pip install flask gunicorn
+RUN pip install flask
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
@@ -17,5 +17,5 @@ EXPOSE 80
 # Define environment variable
 ENV NAME World
 
-# Command to run the application using Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:80", "valentine_api:app"]
+# Run app.py when the container launches
+CMD ["python", "valentine_api.py"]

@@ -16,5 +16,5 @@ jobs:
       run: sudo docker pull bit3down/valentine:latest
     - name: Delete old container
       run: sudo docker rm -f valentine || true
-    - name: Run Docker container with Gunicorn
+    - name: Run Docker container
       run: sudo docker run -d --name valentine -p 80:80 bit3down/valentine:latest

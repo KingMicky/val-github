@@ -46,8 +46,7 @@ def ask_valentine():
         response = "Invalid answer. Please choose 'Yes' or 'No'."
         
     print("Received answer:", answer)
-
-    # Add a random romantic quote
+    
     initial_quote = random.choice(romantic_quotes)
     return render_template('response.html', response=response, initial_quote=initial_quote)
 

@@ -13,40 +13,40 @@ The Valentine API is a simple Flask web application designed for Valentine's Day
   - [Endpoints](#endpoints)
 - [Docker](#docker)
 
-## Features
+# Features
 
 - Display romantic and non-romantic quotes.
 - Allow users to respond to the question "Will you be my Valentine?".
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
+# Prerequisites
 
 - Python (3.8 or higher)
 - Pytest
 - pip
 - Docker (optional)
 
-### Installation
+# Installation
 
-1. Clone the repository:
+1. # Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/valentine-api.git
    cd valentine-api
 
-2. Install Dependency:
+2. # Install Dependency:
 
    ```bash
    pip install pytest 
    pip install flask
 
-3. Usage:
+3. # Usage:
 
    ```bash
     python valentine_api.py
 
-4. Docker:
+4. # Docker:
 
     ```bash
     docker build -t valentine-api .

@@ -44,10 +44,14 @@ def ask_valentine():
         return render_template('no_response.html', response=response, different_quote=different_quote)
     else:
         response = "Invalid answer. Please choose 'Yes' or 'No'."
+        
+    print("Received answer:", answer)
 
     # Add a random romantic quote
     initial_quote = random.choice(romantic_quotes)
     return render_template('response.html', response=response, initial_quote=initial_quote)
+
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True ,port=80)

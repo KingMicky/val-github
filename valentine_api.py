@@ -13,14 +13,10 @@ romantic_quotes = [
 ]
 
 NonRomantic_quotes = [
-    "God will punish you for not accepting my love",
-    "I hope you see someone lesser than me",
-    "I hope you get a job that pays you less than me",
-    "I hope you get a partner that loves you less than me",
-    "I hope you get a car that is less than mine",
-    "I hope you get a house that is less than mine",
-    "I hope you get a life that is less than mine",
-]
+    "Are you sure? you know you can go back and pick the right answer rii?",
+    "I think you picked the wrong answer",
+    "LoL"
+     ]
 
 @app.route('/')
 def index():

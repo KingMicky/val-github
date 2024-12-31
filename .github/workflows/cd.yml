@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, Ubuntu, ip-172-31-40-115]
+    runs-on: self-hosted
 
     steps:
     - name: Pull Docker image
